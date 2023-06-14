@@ -15,6 +15,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* <link rel="shortcut icon" href={`${process.env.basePath}/icon/favicon.ico`} /> */}
+        <link href="mncsek/assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="mncsek/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="mncsek/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+        <link href="mncsek/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="mncsek/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="mncsek/assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+        <link href="mncsek/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+        <link href="mncsek/assets/css/style.css" rel="stylesheet" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
